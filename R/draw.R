@@ -130,8 +130,10 @@ drawClustSpline <- function(xpos, ytop, ybtm, color, nest.level, pad.left=0,
 #' 
 #' @return returns the location of the temporary png file that will get embedded into the eventual output
 #'
-createBackgroundImage <- function(col=c("bisque","darkgoldenrod1","darkorange3")){
+createBackgroundImage <- function(col=c("white","white","white")){
   ##create background image with smooth gradient
+  ##This is the only change that u have done to create single color background
+  
     tmpfile=tempfile()
     png(tmpfile,width=80,height=80)  ##TODO - make this work with system temp dir (or current dir?)
 
