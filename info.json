@@ -1,0 +1,13 @@
+{
+	"file": "https://drive.google.com/drive/folders/0BzEhO2w3fB-7Mk1scDNvTXZlWVk?usp=sharing",
+	"name": "Test",
+	"header": 0,
+	"separator": ";",
+	"skip": 0,
+	"meta": [
+		{ "type": "id", "index": 0, "name": "Name" }
+	],
+	"sets": [
+		{ "format": "binary", "start": 1, "end": 3 }
+	]
+}
